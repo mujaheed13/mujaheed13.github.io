@@ -12,7 +12,7 @@ html{
     display: flex;
     width: 23%;
     flex-direction: column;
-    margin-top: 8vh;
+    margin-top: 5vh;
     margin-left: 2vw;
     align-items: center;
     justify-content: space-between;
@@ -21,54 +21,71 @@ html{
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
     border-radius: 20px;
+    /* background-color: rgb(56, 56, 56); */
 }
 
 #nav-menu>a{
     margin: 6% 0;
+    width: 50%;
 }
 
+
+/* --green: #1BFD9C; */
 
 
 main{
     display: flex;
 }
 
+#main{
+    margin-left: 30vw;
+    width: 70%;
+}
 
-
-.nav-link>button {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  .nav-link button {
+    --green: #00ff44;
+    font-size: 15px;
+    width: 100%;
+    padding: 0.7em 0;
+    letter-spacing: 0.06em;
     position: relative;
-    display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
-      7px 7px 20px 0px rgba(0,0,0,.1),
-      4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-   }
-   
-   .nav-link>button{
-    background: rgb(96,9,240);
-    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
-    border: none;
-   }
-   
-   .nav-link>button:before {
-    height: 0%;
-    width: 2px;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: green;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
    }
    
    .nav-link>button:hover {
-    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
-                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
-       inset -4px -4px 6px 0 rgba(255,255,255,.2),
-       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
    }
    
+   .nav-link>button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+   }
+   
+   .nav-link>button:hover:before {
+    transform: translateX(15em);
+   }
+
+
+ 
+/* mobile screens */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+/* tablet screens */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+    
+}
