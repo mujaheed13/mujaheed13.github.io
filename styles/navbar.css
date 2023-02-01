@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav-menu{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 10vh 0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    border-radius: 20px;
+}
+
+#nav-menu>a{
+    margin: 6% 0;
+}
+
+
+
+main{
+    display: flex;
+}
+
+#test{
+    width: 60%;
+    margin-left: 30vw;
+}
+
+#test>div{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
