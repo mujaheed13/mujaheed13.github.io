@@ -21,7 +21,6 @@ html{
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
     border-radius: 20px;
-    /* background-color: rgb(56, 56, 56); */
 }
 
 #nav-menu>a{
@@ -35,11 +34,13 @@ html{
 
 main{
     display: flex;
+    
 }
 
 #main{
     margin-left: 30vw;
     width: 70%;
+    padding: 5vh;
 }
 
   .nav-link button {

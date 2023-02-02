@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammad Mujaheed</title>
+    <title>Mohammad Mujaheed | Portfolio</title>
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/about.css">
 </head>
 <body>
     <main>
@@ -15,14 +17,26 @@
         <a class="nav-link skills" href="#skills"> <button>Skills</button></a>
         <a class="nav-link projects" href="#projects"> <button>Projects</button></a>
         <a class="nav-link contact" href="#contact"> <button>Contact</button></a>
-        <a class="nav-link resume" href=""> <button>Resume</button></a>
+        <a class="nav-link resume" id="resume-button-1" target="_blank" href="./resume/Mohammad_Mujaheed_Resume.pdf" download><button>Resume</button></a>
     </div>
     <div id="main">
         <div id="home">
             <!-- Home -->
+            <img src="/images/developer.jpg" alt="">
+           <div>
+            
+            <h1>I'm Mohammad Mujaheed  and a</h1>
+            <h2 id="text2"></h2>
+           </div>
+           
+            
         </div>
         <div id="about">
             <!-- About Me -->
+            <img src="./images/DSC_8749.JPG" alt="">
+            <p>
+               <b>Hello, I'm Mohammad Mujaheed.</b>  An Aspiring Full Stack Web Developer. Proficient JavaScript, Node.js, Express.js, MongoDB, My SQL, HTML and CSS.
+            </p>
         </div>
         <div id="skills">
             <!-- skills -->
@@ -37,3 +51,5 @@
 </main>
 </body>
 </html>
+<script src="./scripts/download.js"></script>
+<script src="./scripts/home.js"></script>
