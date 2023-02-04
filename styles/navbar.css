@@ -113,6 +113,7 @@ main{
     #main{
         width: 90%;
         margin: auto;
+        padding: 0;
     }
 
     #top{
