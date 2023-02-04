@@ -1,4 +1,4 @@
-var words = ["Web Developer", "Coder", "Programmer", "Backend Developer"]
+var words = ["Web Developer.", "Coder.", "Programmer.", "Backend Developer."]
 
 
 var counter = 0;

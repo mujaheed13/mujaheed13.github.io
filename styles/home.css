@@ -31,3 +31,15 @@ h2{
     from, to { border-color: transparent }
     50% { border-color: rgb(68, 68, 68); }
   }
+
+  /* tablet screens */
+@media screen and (max-width: 768px) {
+  #home>img{
+    width: 100%;
+}
+}
+
+/* mobile screens */
+@media screen and (max-width: 480px) {
+  
+}
