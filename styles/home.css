@@ -34,6 +34,9 @@ h2{
 
   /* tablet screens */
 @media screen and (max-width: 768px) {
+  #home{
+    margin: auto;
+  }
   #home>img{
     width: 100%;
 }
