@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-image: url(../images/polygon-scatter-haikei.svg); */
     background-image: url(../images/stacked-waves-haikei.svg);
     background-size: cover; 
     background-position: center;
@@ -16,8 +15,7 @@ html{
 }
 
 #nav-menu{
-    /* border: 1px solid black; */
-   background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
     flex-direction: column;
     margin-top: 5vh;
     margin-left: 2vw;
@@ -114,19 +112,21 @@ main{
 
     #top{
         display: flex;
-        /* width: 100%; */
         justify-content: space-between;
-        border: 1px solid black;
         padding: 5px 10px;
-        /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        color: white;
+        position: sticky;
+        top: 0;
+        background-color: rgb(114, 166, 255);
     }
 
     #top>img{
         width: 8%;
         padding: 1%;
         margin: auto 0;
-        /* margin-left: 30%; */
         position: relative;
+        filter: invert(1);
     }
 
     #top>h1{
@@ -138,7 +138,6 @@ main{
 /* mobile screens */
 @media screen and (max-width: 480px) {
     #main{
-        /*   */
         margin: auto;
     }
 

@@ -1,7 +1,7 @@
 #about{
     display: flex;
     padding: 1%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 3% 0;
 }
 
@@ -14,7 +14,12 @@
     }
 
     #about>img{
-      width: 10%;
+      width: 30%;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 1% 6%;
+      margin: auto;
+      box-shadow:  -3px -3px 5px #bebebe,
+             3px 3px 5px #ffffff;
     }
 
   }

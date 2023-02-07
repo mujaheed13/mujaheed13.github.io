@@ -1,5 +1,4 @@
 #home{
-    /* width: 100%; */
     color: aliceblue;
 }
 
@@ -14,17 +13,9 @@
 }
 
 
-
-
-/* h1, h2{
-    text-align: center;
-} */
-
-
 #text2 {
       display: inline-block;
-      border-right: .10em solid orange; 
-     /* color: green; */
+      border-right: .10em solid orange;
       animation: 
             blink-caret .75s step-end infinite;
   }
