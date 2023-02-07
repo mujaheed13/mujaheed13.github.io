@@ -13,6 +13,7 @@ navBtn.addEventListener("click", ()=>{
             box-shadow: none;
             margin: 0;
             border-radius:0;
+            transition: 1s;
         `;
     } else {
         navBtn.src = "./images/menu-burger.png"

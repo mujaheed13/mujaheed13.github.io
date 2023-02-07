@@ -9,7 +9,14 @@
   @media screen and (max-width: 768px) {
     #about{
       margin: auto;
+      display: flex;
+      flex-direction: column;
     }
+
+    #about>img{
+      width: 10%;
+    }
+
   }
 
 
