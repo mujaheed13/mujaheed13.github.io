@@ -35,7 +35,7 @@
 
   /* tablet screens */
   @media screen and (max-width: 768px) {
-    #about{
+    #about>div{
       margin: auto;
       display: flex;
       flex-direction: column;
