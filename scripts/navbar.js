@@ -26,7 +26,9 @@ navBtn.addEventListener("click", ()=>{
 nav_btns.forEach((el)=>{
     el.addEventListener("click", ()=>{
         navBtn.src = "./images/menu-burger.png";
-        navActive=false;
-        navMenu.style.display = "none";  
+        if(window.innerWidth<=768){
+            navActive=false;
+            navMenu.style.display = "none"; 
+        } 
     })
 })

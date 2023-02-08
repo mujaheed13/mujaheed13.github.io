@@ -1,8 +1,36 @@
 #about{
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+#about>h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#about>div{
     display: flex;
     padding: 1%;
     /* border: 1px solid red; */
     margin: 3% 0;
+    justify-content: space-between;
+}
+
+#about>div>img{
+  border: 5px solid rgb(255, 255, 255);
+  width: 40%;
+  border-radius: 1% 6%;
+  margin: auto;
+  box-shadow:  -3px -3px 5px #bebebe,
+         3px 3px 5px #ffffff;
+}
+
+#about>div>p{
+  padding: 50px;
+  /* border: 1px solid black; */
+  font-size: 23px;
+  color: white;
+  letter-spacing: 0.5px;
 }
 
   /* tablet screens */
@@ -13,14 +41,12 @@
       flex-direction: column;
     }
 
-    #about>img{
-      width: 30%;
-      border: 5px solid rgb(255, 255, 255);
-      border-radius: 1% 6%;
-      margin: auto;
-      box-shadow:  -3px -3px 5px #bebebe,
-             3px 3px 5px #ffffff;
+    #about>div>p{
+      font-size: 16px;
+      padding: 0;
     }
+
+   
 
   }
 

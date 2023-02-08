@@ -1,0 +1,19 @@
+#skills{
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+#skills>img{
+    width: 50%;
+    /* height: 100%; */
+    margin: auto;
+}
+
+/* tablet screens */
+@media screen and (max-width: 768px) {
+    #skills{
+        margin-top: 30px;
+    }
+}
