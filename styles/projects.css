@@ -1,0 +1,23 @@
+/* #projects{
+
+} */
+
+#projects>h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+.project-card{
+    width: 100%;
+    text-align: center;
+    margin: 8vh 0vh;
+}
+
+.project-card>img{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
