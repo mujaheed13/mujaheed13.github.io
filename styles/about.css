@@ -26,6 +26,12 @@
          3px 3px 5px #ffffff;
 }
 
+#about>h2{
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
 #about>div>p{
   padding: 50px;
   /* border: 1px solid black; */
