@@ -57,6 +57,13 @@
 
   }
 
+  .calendar>div{
+    width: 100%;
+    margin: auto;
+  }
+
+  
+  
 
   /* mobile screens */
 @media screen and (max-width: 480px) {
