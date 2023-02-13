@@ -3,7 +3,7 @@
   margin-top: 5%;
 }
 
-#about>h1{
+#about>h1, #contact>h1{
   text-align: center;
   text-decoration: underline;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
@@ -54,6 +54,46 @@
   letter-spacing: 0.5px;
 }
 
+
+.calendar>div{
+  width: 90%;
+  margin: auto;
+}
+
+#resume-link-2{
+  text-decoration: none;
+}
+
+#resume-button-2 {
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid aliceblue;
+}
+
+
+
+#resume-button-2:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+}
+
+#resume-button-2:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+}
+
+
   /* tablet screens */
   @media screen and (max-width: 768px) {
     #about>div{
@@ -67,19 +107,22 @@
       padding: 0;
     }
 
+    .stats>img{
+      width: 80%;
+      margin-top: 5vh;
+    }
    
 
   }
 
-  .calendar>div{
-    width: 100%;
-    margin: auto;
-  }
+  
 
   
   
 
   /* mobile screens */
 @media screen and (max-width: 480px) {
-   
+  .stats>img{
+    width: 90%;
+  }
 }
