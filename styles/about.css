@@ -1,52 +1,50 @@
-#about{
+#about {
   color: #ffffff;
   margin-top: 5%;
 }
 
-#about>h1, #contact>h1{
+#about > h1,
+#contact > h1 {
   text-align: center;
   text-decoration: underline;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
 }
 
-#about>div{
-    display: flex;
-    padding: 1%;
-    /* border: 1px solid red; */
-    margin: 3% 0;
-    justify-content: space-between;
+#about > div {
+  display: flex;
+  padding: 1%;
+  /* border: 1px solid red; */
+  margin: 3% 0;
+  justify-content: space-between;
 }
 
-#me>img{
+#me > img {
   border: 5px solid rgb(255, 255, 255);
   width: 30%;
   border-radius: 1% 6%;
   margin: auto;
-  box-shadow:  -3px -3px 5px #bebebe,
-         3px 3px 5px #ffffff;
+  box-shadow: -3px -3px 5px #bebebe, 3px 3px 5px #ffffff;
 }
 
-#about>h2{
+#about > h2 {
   display: flex;
   text-align: center;
   margin: auto;
 }
 
-
-.stats{
+.stats {
   border-radius: 10px;
 }
 
-.stats>img{
+.stats > img {
   margin: auto;
   width: 60%;
   border: 3px solid aliceblue;
   border-radius: 10px;
-  box-shadow:  -3px -3px 5px #bebebe,
-  3px 3px 5px #ffffff;
+  box-shadow: -3px -3px 5px #bebebe, 3px 3px 5px #ffffff;
 }
 
-#about>div>p{
+#about > div > p {
   padding: 50px;
   /* border: 1px solid black; */
   font-size: 23px;
@@ -54,15 +52,10 @@
   letter-spacing: 0.5px;
 }
 
-
-.calendar>div{
+.calendar > div {
   width: 90%;
   margin: auto;
 }
-
-
-
-
 
 #resume-button-2:hover {
   background-color: #6fc5ff;
@@ -76,36 +69,28 @@
   box-shadow: none;
 }
 
-
-  /* tablet screens */
-  @media screen and (max-width: 768px) {
-    #about>div{
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-    }
-
-    #about>div>p{
-      font-size: 16px;
-      padding: 0;
-    }
-
-    .stats>img{
-      width: 80%;
-      margin-top: 5vh;
-    }
-   
-
+/* tablet screens */
+@media screen and (max-width: 768px) {
+  #about > div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
   }
 
-  
+  #about > div > p {
+    font-size: 16px;
+    padding: 0;
+  }
 
-  
-  
+  .stats > img {
+    width: 80%;
+    margin-top: 5vh;
+  }
+}
 
-  /* mobile screens */
+/* mobile screens */
 @media screen and (max-width: 480px) {
-  .stats>img{
+  .stats > img {
     width: 90%;
   }
 }

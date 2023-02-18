@@ -1,18 +1,18 @@
-#home{
-    color: aliceblue;
+#home {
+  color: aliceblue;
 }
 
-#home>img{
-    width: 60%;
-    display: block;
-    margin: auto;
+#home > img {
+  width: 60%;
+  display: block;
+  margin: auto;
 }
 
-#home>div{
- text-align: center;
+#home > div {
+  text-align: center;
 }
 
-#resume-link-2{
+#resume-link-2 {
   text-decoration: none;
 }
 
@@ -33,39 +33,40 @@
   letter-spacing: 0.5px;
 }
 
-
 #text2 {
-      display: inline-block;
-      border-right: .10em solid orange;
-      animation: 
-            blink-caret .75s step-end infinite;
-  }
+  display: inline-block;
+  border-right: 0.1em solid orange;
+  animation: blink-caret 0.75s step-end infinite;
+}
 
-  h2{
-    display: inline-block;
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(68, 68, 68); }
-  }
+h2 {
+  display: inline-block;
+}
 
-  /* tablet screens */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(68, 68, 68);
+  }
+}
+
+/* tablet screens */
 @media screen and (max-width: 768px) {
-  #home{
+  #home {
     margin: auto;
     width: 100%;
   }
-  #home>img{
+  #home > img {
     width: 100%;
-}
+  }
 }
 
 /* mobile screens */
 @media screen and (max-width: 480px) {
-  
 }
 
 @media screen and (min-width: 769px) {
- 
 }

@@ -8,7 +8,6 @@ navBtn.addEventListener("click", ()=>{
         navActive=true;
         navMenu.style = `
             display: flex;
-            // background-color: #ffffff;
             width: 100vw;
             position: fixed;
             box-shadow: none;
