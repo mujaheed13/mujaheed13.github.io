@@ -60,24 +60,7 @@
   margin: auto;
 }
 
-#resume-link-2{
-  text-decoration: none;
-}
 
-#resume-button-2 {
-  padding: 15px 30px;
-  border: 0;
-  border-radius: 100px;
-  background-color: #2ba8fb;
-  color: #ffffff;
-  font-weight: Bold;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  border: 2px solid aliceblue;
-}
 
 
 
