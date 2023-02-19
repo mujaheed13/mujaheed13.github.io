@@ -9,6 +9,7 @@ navBtn.addEventListener("click", () => {
     navMenu.style = `
             display: flex;
             width: 100vw;
+            z-index: 1000;
             position: fixed;
             box-shadow: none;
             margin: 0;
