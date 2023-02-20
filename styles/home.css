@@ -12,11 +12,12 @@
   text-align: center;
 }
 
+/* #resume-link-2 {
+  
+} */
+
 #resume-link-2 {
   text-decoration: none;
-}
-
-#resume-button-2 {
   padding: 10px 20px;
   border: 0;
   border-radius: 100px;
@@ -27,6 +28,7 @@
   -webkit-transition: all 0.5s;
   display: block;
   margin: auto;
+  width: fit-content;
   margin-top: 20px;
   border: 2px solid aliceblue;
   font-size: large;
