@@ -141,6 +141,7 @@ main {
     position: sticky;
     top: 0;
     background-color: rgb(114, 166, 255);
+    z-index: 99;
   }
 
   #top > img {
