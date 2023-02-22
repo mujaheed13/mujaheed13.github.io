@@ -1,5 +1,7 @@
 #projects {
   color: white;
+ 
+ 
 }
 
 #projects > h1 {
@@ -10,9 +12,16 @@
 }
 
 .project-card {
-  padding: 10px;
+  padding: 25px 10px;
   text-align: center;
   margin: 8vh 0vh;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.92); */
+
 }
 
 .project-card > h2 {
@@ -29,6 +38,8 @@
   width: 85%;
   display: flex;
   margin: auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #project-btn {
