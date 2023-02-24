@@ -3,22 +3,19 @@
 }
 
 #contact>div{
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
 }
 
 #sm-links{
   width: 50%;
-  /* border: 1px solid black; */
-  
 }
 
 #sm-links>div{
   display: flex;
   margin: auto;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 1%;
 }
 
@@ -29,8 +26,10 @@
 
 #sm-links>div>a{
   color: aliceblue;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
+
+
 
 #contact-form {
 background: rgba(255, 255, 255, 0.22);
@@ -52,6 +51,9 @@ backdrop-filter: blur(1.8px);
   padding: 10px;
 }
 
+#contact-form label{
+  padding-left:10%  ;
+}
 
 
 
