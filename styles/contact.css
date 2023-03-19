@@ -13,15 +13,17 @@
 
 #sm-links>div{
   display: flex;
+  width: 80%;
   margin: auto;
+  font-size: larger;
   align-items: center;
-  /* justify-content: center; */
+  /* justify-content: space-evenly; */
   padding: 1%;
 }
 
 #sm-links>div>img{
   width: 10%;
-  padding: 1%;
+  padding: 5%;
 }
 
 #sm-links>div>a{
@@ -29,7 +31,10 @@
   /* text-decoration: none; */
 }
 
-
+#sm-links>div>p>a{
+  text-decoration: none;
+  color: aliceblue;
+}
 
 #contact-form {
 background: rgba(255, 255, 255, 0.22);
@@ -45,14 +50,22 @@ backdrop-filter: blur(1.8px);
 
 
 
-#contact-form>input, #contact-form>textarea{
+#contact-form>input{
   margin: 10px auto;
   width: 75%;
   padding: 10px;
 }
 
+#contact-form>input[type="submit"] {
+  background-color: #2ba8fb;
+  border: 1px solid white;
+  color: white;
+  border-radius: 2px;
+  width: 80%;
+}
+
 #contact-form label{
-  padding-left:10%  ;
+  padding-left:10%;
 }
 
 

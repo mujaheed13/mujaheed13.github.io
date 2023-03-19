@@ -206,10 +206,18 @@
                 <h1>Contact</h1>
                 <div>
                     <div id="sm-links">
-                        <h4>Phone:</h4>
-                        <p id="contact-phone">+91 7993688315</p>
-                        <h4>Email:</h4>
-                        <p id="contact-email">mrmujaheed13@gmail.com</p>
+                        <!-- <h4>Phone:</h4>
+                         -->
+                        <div>
+                            <img src="images/telephone-call.png" alt="">
+                            <p id="contact-phone">+91 7993688315</p>
+                        </div>
+                        <!-- <h4>Email:</h4>
+                        <p >mrmujaheed13@gmail.com</p> -->
+                        <div>
+                            <img src="./images/email.png" alt="">
+                            <p id="contact-email" ><a href="mailto:mrmujaheed13@gmail.com">mrmujaheed13@gmail.com</a></p>
+                        </div>
                         <div>
                             <img src="./images/linkedin.png" alt="">
                             <a id="contact-linkedin" href="https://www.linkedin.com/in/mohammad-mujaheed-a86801218/"
@@ -221,15 +229,15 @@
                         </div>
                        
                     </div>
-                    <form id="contact-form" action="">
+                    <form id="contact-form">
                         <label  for="name">Name*</label>
-                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Name" name="name" id="name" required>
                         <label for="email">Email*</label>
-                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Email" name="email" id="email" required>
                         <label for="phone">Phone</label>
-                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Phone" name="phone" id="phone">
                         <label for="message">Message*</label>
-                        <textarea name="" id="" placeholder="Your Message" rows="5" required></textarea>
+                        <input type="text" name="message" id="message" placeholder="Message">
                         <input type="submit">
                     </form>
                 </div>
@@ -239,6 +247,8 @@
 </body>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script defer src="./scripts/contact.js"></script>
 <script defer src="./scripts/download.js"></script>
 <script defer src="./scripts/home.js"></script>
 <script defer src="./scripts/navbar.js"></script>
