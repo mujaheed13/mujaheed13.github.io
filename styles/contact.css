@@ -88,3 +88,14 @@ h4{
   }
 
 }
+
+/* mobile screens */
+@media screen and (max-width: 480px) {
+  #contact-form{
+    width: 85%;
+    margin: auto;
+  }
+  #btm{
+    margin-top: 10px;
+  }
+}
