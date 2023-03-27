@@ -19,9 +19,9 @@ resume_btn2.addEventListener("click", download);
 // })
 
 function download(){
-  // window.location.assign("https://drive.google.com/file/d/1PVo0XgJQCZwOPfndmpMkW-Wxav3Z7Ql4/view?usp=share_link", "_blank");
-  window.open(
-        "https://drive.google.com/file/d/1PVo0XgJQCZwOPfndmpMkW-Wxav3Z7Ql4/view?usp=share_link",
-        "_blank"
-      );
+  window.location.assign("https://drive.google.com/file/d/1PVo0XgJQCZwOPfndmpMkW-Wxav3Z7Ql4/view?usp=share_link");
+  // window.open(
+  //       "https://drive.google.com/file/d/1PVo0XgJQCZwOPfndmpMkW-Wxav3Z7Ql4/view?usp=share_link",
+  //       "_blank"
+  //     );
 }
