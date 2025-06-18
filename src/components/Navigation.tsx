@@ -1,7 +1,6 @@
-
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import ThemeToggle from './ThemeToggle';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 interface NavigationProps {
   isDark: boolean;
@@ -14,21 +13,28 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, onThemeToggle }) => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
     setIsMenuOpen(false); // Close mobile menu after clicking
   };
 
-  const navItems = ['home', 'about', 'skills', 'experience', 'projects', 'contact'];
+  const navItems = [
+    "home",
+    "about",
+    "skills",
+    "experience",
+    "projects",
+    "contact",
+  ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-xl z-50 border-b border-border/50 transition-all duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent animate-pulse">
-            &lt;Dev/&gt;
+            &lt;Mohammad Mujaheed/&gt;
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((section) => (
