@@ -1,5 +1,6 @@
 import React from "react";
 import { Code, Zap, Terminal } from "lucide-react";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -44,12 +45,28 @@ const Hero = () => {
 
           {/* Main heading with typewriter effect */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-foreground via-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight">
-              <span className="inline-block animate-fade-in">Full Stack</span>
+            <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-foreground via-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight">
+              {/* <span className="inline-block animate-fade-in">Full Stack</span>
               <br />
               <span className="inline-block animate-fade-in delay-300">
                 Developer
-              </span>
+              </span> */}
+
+              <Typewriter
+                words={[
+                  "Software Engineer",
+                  "Full Stack Developer",
+                  "Backend Developer",
+                  "Frontend Developer",
+                  "Coder",
+                ]}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1500}
+              />
             </h1>
             <div className="flex items-center justify-center space-x-2 text-xl md:text-2xl text-muted-foreground">
               <span className="animate-fadeInLeft delay-500">&lt;</span>
@@ -65,16 +82,13 @@ const Hero = () => {
 
           {/* Enhanced description */}
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fadeInUp delay-1000">
-            Passionate developer with{" "}
-            <span className="text-blue-600 font-semibold">2 years</span> of
-            experience crafting
+            Passionate developer focused on crafting
             <span className="text-purple-600 font-semibold">
               {" "}
-              scalable web solutions
-            </span>{" "}
-            using cutting-edge technologies.
+              scalable web solutions{" "}
+            </span>
+            using modern technologies and best development practices.
           </p>
-
           {/* Enhanced CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-1200">
             <button
